@@ -64,7 +64,7 @@ const ContactSection: React.FC = () => {
                 href={link.href}
                 target={link.href.startsWith('http') ? '_blank' : undefined}
                 rel={link.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-                className={`group bg-gray-700 rounded-2xl p-8 hover:bg-gray-600 transition-all duration-300 ${link.color}`}
+                className={`group bg-gray-700 rounded-2xl p-10 md:min-w-[220px] min-h-[200px] shadow-md hover:bg-gray-600 transition-all duration-300 ${link.color}`}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
