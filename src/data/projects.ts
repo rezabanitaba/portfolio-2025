@@ -61,11 +61,11 @@ export const projects: Project[] = [
   },
   {
     id: 'restaurant-manager',
-    title: 'Restaurant Manager CLI (BCIT)',
+    title: 'Restaurant Manager (BCIT)',
     role: 'Developer',
     techStack: ['Python', 'CLI', 'Data Structures'],
     description: [
-      'A command-line restaurant system for managing menus, orders, and billing built with Python.',
+      'A system for managing menus, orders, and billing built with Python.',
       'This project helped reinforce control structures, input validation, and object-oriented programming principles while solving real-world business problems.'
     ],
     imageUrl: 'https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=800'
@@ -76,7 +76,7 @@ export const projects: Project[] = [
     role: 'Developer',
     techStack: ['Python', 'Facebook Messenger API', 'Webhooks'],
     description: [
-      'A chatbot that simulates basic customer service interaction for businesses, built with Python and Facebook Messenger\'s webhook APIs.',
+      'A chatbot that simulates basic customer service interaction for businesses, built with Python, Flask and Facebook Messenger\'s webhook APIs.',
       'The bot handled common customer inquiries and demonstrated natural language processing and API integration skills.'
     ],
     imageUrl: 'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=800'
