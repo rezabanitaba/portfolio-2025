@@ -12,15 +12,15 @@ const ContactSection: React.FC = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'reza@example.com',
-      href: 'mailto:reza@example.com',
+      value: 'ahmadreza.banitaba@gmail.com',
+      href: 'mailto:ahmadreza.banitaba@gmail.com',
       color: 'hover:text-red-500'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      value: 'linkedin.com/in/rezabanitaba',
-      href: 'https://linkedin.com/in/rezabanitaba',
+      value: 'linkedin.com/in/ahmadrezabanitaba',
+      href: 'https://linkedin.com/in/ahmadrezabanitaba',
       color: 'hover:text-blue-600'
     },
     {
