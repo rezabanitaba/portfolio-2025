@@ -16,9 +16,9 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onViewProjects }) => {
           transition={{ duration: 0.8 }}
           className="mb-8"
         >
-          <div className="w-32 h-32 mx-auto mb-6 bg-gradient-to-br from-primary to-primary/80 rounded-full flex items-center justify-center text-white text-4xl font-bold shadow-xl">
+{/*           <div className="w-32 h-32 mx-auto mb-6 bg-gradient-to-br from-primary to-primary/80 rounded-full flex items-center justify-center text-white text-4xl font-bold shadow-xl">
             RB
-          </div>
+          </div> */}
         </motion.div>
 
         <motion.div
